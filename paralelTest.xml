@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="paralel calistirma" parallel="classes" thread-count="2">
+    <test name="paralel test">
+        <classes>
+            <class name="com.techproed.tests.AmazonSatirSutun"></class>
+            <class name="com.techproed.tests.AmazonHucreTesti"></class>
+        </classes>
+    </test>
+</suite>
